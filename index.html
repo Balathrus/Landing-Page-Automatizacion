@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App de Liquidación de Sueldos para Pymes | [Nombre de tu App]</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-bg-lp2 {
+            background-color: #F3F4F6; /* Gray-100 */
+        }
+        .cta-button-app {
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+        .cta-button-app:hover {
+            transform: scale(1.05);
+        }
+        .benefit-icon {
+            transition: transform 0.3s ease;
+        }
+        .benefit-card:hover .benefit-icon {
+            transform: rotate(10deg) scale(1.1);
+        }
+        .mockup-shadow-lp2 {
+            filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+        }
+    </style>
+</head>
+<body class="bg-white text-slate-800">
+
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div>
+                <img src="https://placehold.co/180x45/10B981/FFFFFF?text=[Nombre+de+tu+App]" alt="[Logo de Nombre de tu App]" class="h-10">
+            </div>
+            <div class="space-x-4">
+                <a href="#caracteristicas-app" class="text-slate-600 hover:text-emerald-600 font-medium">Características</a>
+                <a href="#beneficios-app" class="text-slate-600 hover:text-emerald-600 font-medium">Beneficios</a>
+                <a href="#contacto-app" class="bg-emerald-500 hover:bg-emerald-600 text-white font-semibold py-2 px-5 rounded-lg cta-button-app">Obtener App</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-bg-lp2 py-16 md:py-24">
+        <div class="container mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+            <div class="text-center md:text-left">
+                <span class="text-emerald-600 font-semibold mb-2 block">LA SOLUCIÓN DEFINITIVA PARA TUS NÓMINAS</span>
+                <h1 class="text-4xl md:text-5xl font-extrabold text-slate-800 mb-6 leading-tight">
+                    Simplifica la Liquidación de Sueldos en tu Pyme
+                </h1>
+                <p class="text-lg text-slate-600 mb-8 max-w-lg mx-auto md:mx-0">
+                    Con <span class="font-bold">[Nombre de tu App]</span>, olvídate de los cálculos manuales y errores. Ahorra tiempo, asegura el cumplimiento y gestiona las nóminas de forma eficiente.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                    <a href="#contacto-app" class="bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-3 px-8 rounded-lg text-lg cta-button-app text-center">
+                        Descubre [Nombre de tu App]
+                    </a>
+                    <a href="#oferta-app" class="bg-slate-200 hover:bg-slate-300 text-emerald-700 font-bold py-3 px-8 rounded-lg text-lg cta-button-app text-center">
+                        Ver Oferta Especial
+                    </a>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <img src="https://placehold.co/500x450/FFFFFF/10B981?text=Mockup+Profesional+de+la+App" alt="[Mockup de la App de Liquidación de Sueldos]" class="rounded-lg mockup-shadow-lp2 w-full max-w-md">
+            </div>
+        </div>
+    </header>
+
+    <section id="caracteristicas-app" class="py-16 md:py-24">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12 md:mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-700 mb-3">Todo lo que Necesitas en una Sola App</h2>
+                <p class="text-lg text-slate-600 max-w-xl mx-auto">Funcionalidades pensadas para Pymes en Chile.</p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="benefit-card bg-white p-6 rounded-xl shadow-lg border border-slate-200">
+                    <div class="benefit-icon text-4xl text-emerald-500 mb-4"><i class="fas fa-calculator"></i></div>
+                    <h3 class="text-xl font-semibold text-slate-700 mb-2">Cálculo Preciso y Automático</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">Actualizada con la normativa laboral chilena vigente. Evita errores y multas.</p>
+                </div>
+                <div class="benefit-card bg-white p-6 rounded-xl shadow-lg border border-slate-200">
+                    <div class="benefit-icon text-4xl text-emerald-500 mb-4"><i class="fas fa-file-export"></i></div>
+                    <h3 class="text-xl font-semibold text-slate-700 mb-2">Exportación Flexible</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">Genera liquidaciones en PDF, Word y Excel con un solo clic. Listas para imprimir o enviar.</p>
+                </div>
+                <div class="benefit-card bg-white p-6 rounded-xl shadow-lg border border-slate-200">
+                    <div class="benefit-icon text-4xl text-emerald-500 mb-4"><i class="fas fa-desktop"></i></div>
+                    <h3 class="text-xl font-semibold text-slate-700 mb-2">Interfaz Intuitiva</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">Diseñada para ser fácil de usar, sin necesidad de conocimientos técnicos avanzados.</p>
+                </div>
+                <div class="benefit-card bg-white p-6 rounded-xl shadow-lg border border-slate-200">
+                    <div class="benefit-icon text-4xl text-emerald-500 mb-4"><i class="fas fa-shield-alt"></i></div>
+                    <h3 class="text-xl font-semibold text-slate-700 mb-2">Seguridad de Datos</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">La información de tus empleados y tu empresa está protegida con altos estándares.</p>
+                </div>
+                <div class="benefit-card bg-white p-6 rounded-xl shadow-lg border border-slate-200">
+                    <div class="benefit-icon text-4xl text-emerald-500 mb-4"><i class="fas fa-history"></i></div>
+                    <h3 class="text-xl font-semibold text-slate-700 mb-2">Historial y Registros</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">Mantén un registro ordenado de todas las liquidaciones generadas para fácil consulta.</p>
+                </div>
+                <div class="benefit-card bg-white p-6 rounded-xl shadow-lg border border-slate-200">
+                    <div class="benefit-icon text-4xl text-emerald-500 mb-4"><i class="fas fa-headset"></i></div>
+                    <h3 class="text-xl font-semibold text-slate-700 mb-2">Soporte Dedicado</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">Nuestro equipo está listo para ayudarte con cualquier duda o consulta que tengas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="beneficios-app" class="py-16 md:py-24 bg-emerald-600 text-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12 md:mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-3">Transforma la Gestión de Nóminas en tu Pyme</h2>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <div>
+                    <div class="text-5xl mb-4"><i class="fas fa-clock"></i></div>
+                    <h3 class="text-2xl font-semibold mb-2">Ahorra Tiempo Valioso</h3>
+                    <p class="text-emerald-100">Reduce horas de trabajo administrativo y dedícalas a hacer crecer tu negocio.</p>
+                </div>
+                <div>
+                    <div class="text-5xl mb-4"><i class="fas fa-check-double"></i></div>
+                    <h3 class="text-2xl font-semibold mb-2">Minimiza Errores</h3>
+                    <p class="text-emerald-100">Asegura la precisión en los cálculos y evita costosos errores manuales.</p>
+                </div>
+                <div>
+                    <div class="text-5xl mb-4"><i class="fas fa-thumbs-up"></i></div>
+                    <h3 class="text-2xl font-semibold mb-2">Cumplimiento Garantizado</h3>
+                    <p class="text-emerald-100">Mantente al día con la normativa laboral chilena sin complicaciones.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="oferta-app" class="py-16 md:py-24 bg-slate-100">
+        <div class="container mx-auto px-6 text-center">
+            <div class="max-w-2xl mx-auto">
+                <h2 class="text-3xl font-bold text-slate-700 mb-4">¡Adquiere [Nombre de tu App] y Obtén Más!</h2>
+                <p class="text-lg text-slate-600 mb-8">Al obtener nuestra App de Liquidación de Sueldos, no solo simplificas tus nóminas, sino que también recibes una <strong class="text-emerald-600">Asesoría Estratégica en Automatización GRATIS</strong> para identificar otras áreas de mejora en tu Pyme.</p>
+                <a href="#contacto-app" class="bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-4 px-10 rounded-lg text-xl cta-button-app">
+                    ¡Quiero la App y mi Asesoría!
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto-app" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-6 max-w-2xl">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-700">Empieza a Simplificar tus Liquidaciones Hoy</h2>
+                <p class="text-lg text-slate-600">Completa el formulario y te contactaremos a la brevedad.</p>
+            </div>
+            <form action="#" method="POST" class="bg-slate-50 p-8 rounded-xl shadow-xl space-y-6">
+                <div>
+                    <label for="nombre-app" class="block text-sm font-medium text-slate-700 mb-1">Nombre</label>
+                    <input type="text" name="nombre-app" id="nombre-app" required class="w-full p-3 rounded-md border border-slate-300 focus:ring-emerald-500 focus:border-emerald-500">
+                </div>
+                <div>
+                    <label for="email-app" class="block text-sm font-medium text-slate-700 mb-1">Email</label>
+                    <input type="email" name="email-app" id="email-app" required class="w-full p-3 rounded-md border border-slate-300 focus:ring-emerald-500 focus:border-emerald-500">
+                </div>
+                 <div>
+                    <label for="pyme-app" class="block text-sm font-medium text-slate-700 mb-1">Nombre de tu Pyme</label>
+                    <input type="text" name="pyme-app" id="pyme-app" class="w-full p-3 rounded-md border border-slate-300 focus:ring-emerald-500 focus:border-emerald-500">
+                </div>
+                <div>
+                    <label for="mensaje-app" class="block text-sm font-medium text-slate-700 mb-1">Mensaje (Opcional)</label>
+                    <textarea name="mensaje-app" id="mensaje-app" rows="3" class="w-full p-3 rounded-md border border-slate-300 focus:ring-emerald-500 focus:border-emerald-500"></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="w-full bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-3 px-6 rounded-lg text-lg cta-button-app">
+                        Solicitar Información de la App
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-slate-800 text-slate-300 py-10">
+        <div class="container mx-auto px-6 text-center">
+            <img src="https://placehold.co/180x45/FFFFFF/10B981?text=[Nombre+de+tu+App]" alt="[Logo de Nombre de tu App]" class="h-10 mx-auto mb-4">
+            <p class="mb-2">Simplificando la gestión de nóminas para Pymes en Chile.</p>
+            <p class="text-sm">&copy; <span id="yearLP2"></span> [Nombre de tu Empresa/App]. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('yearLP2').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
