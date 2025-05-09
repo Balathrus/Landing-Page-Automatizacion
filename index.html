@@ -107,7 +107,8 @@
                     <p class="text-slate-500 text-sm leading-relaxed">Te guiamos para identificar las mejores oportunidades de automatización y maximizar tu retorno de inversión (ROI).</p>
                 </div>
                 <div class="service-card-vision bg-slate-50 p-8 rounded-xl shadow-lg text-center border border-indigo-100">
-                    <div class="text-4xl text-indigo-600 mb-5"><i class="fas fa-code-branch"></i></div> <h3 class="text-xl font-semibold text-slate-700 mb-2">Desarrollo Personalizado Ágil</h3>
+                    <div class="text-4xl text-indigo-600 mb-5"><i class="fas fa-code-branch"></i></div>
+                    <h3 class="text-xl font-semibold text-slate-700 mb-2">Desarrollo Personalizado Ágil</h3>
                     <p class="text-slate-500 text-sm leading-relaxed">Creamos las funcionalidades exactas que tu empresa necesita para operar con máxima eficiencia y escalabilidad.</p>
                 </div>
             </div>
@@ -200,7 +201,8 @@
                 </div>
                 <div class="process-step-vision bg-white p-6 rounded-xl shadow-lg text-center h-full flex flex-col">
                     <div class="process-icon-vision w-16 h-16 mx-auto mb-5 flex items-center justify-center rounded-full border-2 border-indigo-500 text-indigo-500 text-3xl font-bold">
-                        <i class="fas fa-cogs"></i> </div>
+                        <i class="fas fa-cogs"></i>
+                    </div>
                     <h3 class="text-lg font-semibold text-slate-700 mb-2">4. Soporte y Evolución Continua</h3>
                     <p class="text-sm text-slate-500 leading-relaxed flex-grow">Te acompañamos post-implementación, ofrecemos soporte técnico y optimizamos la solución continuamente.</p>
                 </div>
@@ -316,7 +318,8 @@
             <div class="space-x-4 mb-4 text-sm">
                 <a href="mailto:contacto@visionpyme.cl" class="hover:text-indigo-300">contacto@visionpyme.cl</a>
                 <span class="text-slate-600">|</span>
-                <a href="tel:+56912345678" class="hover:text-indigo-300">+56 9 1234 5678</a> </div>
+                <a href="tel:+56912345678" class="hover:text-indigo-300">+56 9 1234 5678</a>
+            </div>
             <p class="text-xs">&copy; <span id="yearVisionPyme"></span> VisionPyme. Todos los derechos reservados. Batuco, Santiago, Chile.</p>
         </div>
     </footer>
@@ -325,13 +328,13 @@
         // Script para el menú móvil
         const menuBtn = document.getElementById('menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
-        const menuLinksMobile = mobileMenu.querySelectorAll('a');
+        const menuLinksMobile = mobileMenu.querySelectorAll('a'); // Selecciona todos los enlaces dentro del menú móvil
 
         menuBtn.addEventListener('click', () => {
             mobileMenu.classList.toggle('hidden');
         });
 
-        // Cierra el menú móvil cuando se hace clic en un enlace
+        // Cierra el menú móvil cuando se hace clic en un enlace del menú móvil
         menuLinksMobile.forEach(link => {
             link.addEventListener('click', () => {
                 mobileMenu.classList.add('hidden');
